@@ -28,16 +28,19 @@ $navbar-default-bg: #EEF6F7;
 }
 
 .jumbotron h1 {
-  color: #222222;
+  color: #3e8dff;
   text-align: center;
   letter-spacing: -1px;
   font-weight: bold;
-  text-shadow: -2px 0 white, 0 2px white, 2px 0 white, 0 -2px white;
+  text-shadow: -3px 0 white, 0 2px white, 3px 0 white, 0 -3px white;
 }
 
 .btn-extra {
   font-size: 1.7em;
-  background-color: black;
+  border-radius: 148px 61px 148px 61px;
+  -moz-border-radius: 148px 61px 148px 61px;
+  -webkit-border-radius: 148px 61px 148px 61px;
+  border: 0px solid #000000;
 }
 
 .article-details {
