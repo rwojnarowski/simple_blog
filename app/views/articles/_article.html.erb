@@ -9,9 +9,13 @@
         <div class="article-body">
           <%= truncate(article.description, length: 70) %>
           <div class="article-details">
-          <small>Created by: , <%= article.user.username if article.user %>
-                             <%= time_ago_in_words(article.created_at) %> ago,
-          last updated: <%= time_ago_in_words(article.updated_at) %> ago.</small>
+          <small>Created by: <%= article.user.username if article.user %>
+                             <%= time_ago_in_words(article.created_at) %> ago
+                             <% if article.created_at != article.updated_at %>, last updated:
+                             <%= time_ago_in_words(article.updated_at) %> ago.
+                             <% else %>.
+                             <% end %>
+          </small>
           </div>
         </div>
         <% if logged_in? && (current_user == article.user || current_user.admin?) %>
