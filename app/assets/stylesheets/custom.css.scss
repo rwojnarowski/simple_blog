@@ -1,4 +1,4 @@
-$navbar-default-bg: #EEF6F7;
+$navbar-default-bg: #EEF6F7; /* #adb87a */
 
 @import "bootstrap-sprockets";
 @import "bootstrap";
@@ -22,7 +22,7 @@ $navbar-default-bg: #EEF6F7;
 }
 
 .jumbotron {
-  background-image: asset-url('cat2.jpeg');
+  background-image: asset-url('index.jpg');
   background-size: cover;
   height: 550px;
 }
