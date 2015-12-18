@@ -1,5 +1,4 @@
 $navbar-default-bg: #EEF6F7; /* #adb87a */
-
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
@@ -74,10 +73,14 @@ $navbar-default-bg: #EEF6F7; /* #adb87a */
 }
 
 .badge {
-  background-color: #CEF6F5;
+  background-color: #42393c;
   text-transform: uppercase;
   letter-spacing: -1px;
   font-weight: bold;
+}
+
+.badge a {
+  color: #9ffff7;
 }
 
 .input_checkbox {

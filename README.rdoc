@@ -1,4 +1,7 @@
 == README
 
-* to do
-> Heroku: remove sqlite3 gem
+### Rails Version
+4.2.4
+
+### Ruby Version
+2.2.3
