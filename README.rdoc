@@ -1,7 +1,8 @@
-== README
+== Live version
+powerful-river-3444.herokuapp.com
 
-### Rails Version
+- Rails Version
 4.2.4
 
-### Ruby Version
+- Ruby Version
 2.2.3
